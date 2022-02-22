@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/claudiocsx/Projeto-ecomerci-em-grupo/issues"
   },
-  "homepage": "https://github.com/claudiocsx/Projeto-ecomerci-em-grupo#readme"
+  "homepage": "https://github.com/claudiocsx/Projeto-ecomerci-em-grupo#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
