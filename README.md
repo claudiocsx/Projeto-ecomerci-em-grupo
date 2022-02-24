@@ -14,3 +14,6 @@
     <li><i>Caso crie algum diretorio ou arquivo para uso proprio como <code>testes/</code> ou <code>.env.dev</code> por exemplo, adicione eles no <code>.gitignore</code> pois o mesmo fara que tais arquivos sejam ignorados na hora de fazer o commit.</i></li>
 </ui>
 
+#
+# Documentação
+[REGRAS DE NEGOCIO](Server/docs/regra-de-negocio.md)
