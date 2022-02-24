@@ -46,14 +46,18 @@
     - **description**: Caminho da localização da imagem(foto) do produto
     - **require**: *False*
     - **type**: *Varchar*
+- **branc**
+    - **description**: Id da marca do produto
+    - **require**: *True*
+    - **type**: *Char*
 - **category**
-    - **description**: Categorias do produto [tenis-casual', 'tenis-esportivo', 'sapatenis']
+    - **description**: Id das categorias do produto
     - **require**: *True*
-    - **type**: *Varchar*
+    - **type**: *Array[Char]*
 - **colors**
-    - **description**: Cores disponiveis para aquele produto(tenis)
+    - **description**: Id das cores disponiveis para aquele produto(tenis)
     - **require**: *True*
-    - **type**: *Varchar*
+    - **type**: *Array[Char]*
 
 ### Carrinhos:
 - **id_user**
