@@ -1,0 +1,11 @@
+[
+    {
+        "id": "id do produto | type: ObjectId",
+        "name": "nome do produto | type: String",
+        "price": "valor do produto | type: Float",
+        "in_inventory": "quanditade em estoque | type: Integer",
+        "path_image": "caminho da localização da imagem(foto) do produto | type: String",
+        "category": "'tenis-casual' || 'tenis-esportivo' || 'sapatenis'",
+        "colors": ["um", "array", "com", "as", "cores", "do", "tenis", "type: Array[String]"]
+    }
+]

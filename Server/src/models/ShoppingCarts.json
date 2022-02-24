@@ -1,0 +1,12 @@
+[
+    {
+        "id": "id do carrinho de compras | type: ObjectId",
+        "id_user": "id do usuario | type: ObjectId",
+        "products": [
+            {
+                "id_product": "id do produto | type: ObjectId",
+                "quantity": "quantidade solicitada deste produto | type: Integer"
+            }
+        ]
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "id": "id do usuario | type: ObjectId",
+        "name": "nome completo usuario | type: String",
+        "cpf": "cpf valido do usuario | type: String",
+        "email": "email do usuario | type: String",
+        "password": "senha do usuario | type: String HEX"
+    }
+]
