@@ -46,7 +46,7 @@
     - **description**: Caminho da localização da imagem(foto) do produto
     - **require**: *False*
     - **type**: *Varchar*
-- **branc**
+- **brand**
     - **description**: Id da marca do produto
     - **require**: *True*
     - **type**: *Char*
