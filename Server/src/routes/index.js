@@ -1,16 +1,8 @@
-/* IMPORTANDO ROTAS AQUI
-const loginUsuario = require(...)
-const loginAdmin = require(...)
-...
-*/
+// IMPORTANDO ROTAS AQUI
+const catalogRoutes = require('./catalogRoutes')
 
 module.exports = server => {
-    server.use('/', (req, res) => {
-        return res
-            .status(200)
-            .json({
-                status: 'ok',
-                message: "rota de teste"
-            })
-    })
+    server.use(
+        catalogRoutes
+    )
 }
