@@ -9,15 +9,18 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Lato", sans-serif;
 }
 
 
 header{
-    background-color: #000000;
+    background-color: var(--colo-header);
 }
-
 
 
 /* =========================== Header ========================= */
@@ -26,7 +29,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #000000;
+    background-color: var(--colo-header);
     padding: 20px 50px;
 }
 
