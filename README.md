@@ -16,4 +16,5 @@
 
 #
 # Documentação
-[REGRAS DE NEGOCIO](Server/docs/regra-de-negocio.md)
+* [REGRAS DE NEGOCIO](Server/docs/regra-de-negocio.md)
+* [ROTAS DE SERVIÇO](Server/docs/rotas-da-api.md)
