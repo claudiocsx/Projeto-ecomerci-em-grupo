@@ -4,8 +4,9 @@
         "name": "nome do produto | type: String",
         "price": "valor do produto | type: Float",
         "in_inventory": "quanditade em estoque | type: Integer",
+        "brand": "marca do produto | type: String",
         "path_image": "caminho da localização da imagem(foto) do produto | type: String",
-        "category": "'tenis-casual' || 'tenis-esportivo' || 'sapatenis'",
+        "category": "masculino, feminino, infantil, esportivo",
         "colors": ["um", "array", "com", "as", "cores", "do", "tenis", "type: Array[String]"]
     }
 ]
