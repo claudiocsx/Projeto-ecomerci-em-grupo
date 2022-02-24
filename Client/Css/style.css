@@ -1,0 +1,50 @@
+/* ============================= Variables ==================== */
+:root{
+    --colo-header: #000000;
+}
+/* ============================= Base ========================= */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+
+header{
+    background-color: #000000;
+}
+
+
+
+/* =========================== Header ========================= */
+.nav__top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 20px 50px;
+}
+
+.logo{
+    font-size: 1.5rem;
+    color: #ffff;
+}
+
+.limitede__off{
+    color: #ffff;
+}
+
+.search{
+    width: 250px;
+    height: 40px;
+     border: none;
+    background-color: gray;
+    border-radius: 10px;
+    outline: none;
+}
+
