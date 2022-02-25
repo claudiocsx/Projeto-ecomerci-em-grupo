@@ -55,7 +55,9 @@ header{
 }
 
 .search__input{
+    width: 80%;
     background-color: transparent;
+    padding: 10px;
     color: #fff;
     font-size: 17px;
     border: none;
