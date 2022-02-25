@@ -76,8 +76,22 @@ header{
 .limitede__off{
     font-size: 1.2rem;
     border-bottom: 1px solid green;
+    cursor: pointer;
 }
 
+.nav__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .menu__item {
+    margin-right: 50px;
+    cursor: pointer;
+    color: lightgray;
+    font-weight: 400;
+    padding: 20px;
+  }
 /* =========================== Main ========================= */
 
 .cont1 {
