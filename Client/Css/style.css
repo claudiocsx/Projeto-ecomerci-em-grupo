@@ -75,3 +75,97 @@ header{
     font-size: 1.2rem;
     border-bottom: 1px solid green;
 }
+
+/* =========================== Main ========================= */
+
+.cont1 {
+    height: 365px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item {
+    width: 110px;
+    height: 110px;
+}
+
+.cont2 {
+    display: flex;
+    align-items: center;
+}
+
+.cont2_item1 .img-shoes {
+    width: 784px;
+    height: 918px;
+}
+
+.cont2_item2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont2_item1, .cont2_item2 {
+    flex: 1;
+}
+
+.cont2_item2 .inside_cont2_item2 {
+    max-width: 540px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cont2_item2 .title {
+    font-size: 80px;
+    font-weight: 700;
+    color: var(--colo-header);
+    text-align: center;
+}
+
+.cont2_item2 .price {
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.cont2_item2 .details .colors {
+    height: 74px;
+    display: flex;
+    align-items: center;
+}
+
+.cont2_item2 .details .colors .color1, .color2 {
+    width: 42px;
+    height: 52px;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.cont2_item2 .details .colors .color1 {
+    background-color: #000000;
+}
+
+.cont2_item2 .details .colors .color2 {
+    background-color: #4210CF;
+}
+
+.cont2_item2 .details .numbers .number {
+    width: 110px;
+    height: 74px;
+    display: inline-block;
+    margin-right: 45px;
+    font-size: 55px;
+    font-weight: 300;
+    border: solid 1px #000000;
+}
+
+.flex_center-center {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
