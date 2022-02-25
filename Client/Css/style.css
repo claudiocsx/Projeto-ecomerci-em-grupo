@@ -95,6 +95,15 @@ header{
     align-items: center;
 }
 
+.cont2__bg {
+    width: 2465px;
+    height: 907px;
+    background-color: #c4c4c4;
+    opacity: 18%;
+    position: absolute;
+    transform: rotate(-5deg);
+}
+
 .cont2_item1 .img-shoes {
     width: 784px;
     height: 918px;
@@ -105,6 +114,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .cont2_item1, .cont2_item2 {
@@ -129,6 +139,16 @@ header{
 .cont2_item2 .price {
     font-size: 52px;
     font-weight: 700;
+}
+
+.cont2_item2 p {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
 }
 
 .cont2_item2 .details .colors {
