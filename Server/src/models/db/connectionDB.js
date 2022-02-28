@@ -15,7 +15,7 @@ async function main() {
 
         // testando evento de conexão
         connection.on('error', err => {
-            console.error(err)
+            console.error(err);
         });
 
     } catch (err) {

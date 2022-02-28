@@ -1,7 +1,7 @@
-const productsRepository = require('../repositories/ProductsRepository')
+const ProductRepository = require('../repositories/ProductsRepository')
 
 module.exports = (min, max) => {
-    const products = productsRepository.getAll()
+    const products = ProductRepository.getAll()
     const catalog = []    
 
     // varrendo o array products e selecionando produtos de min a max
