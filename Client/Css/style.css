@@ -109,6 +109,7 @@ header{
 .cont2 {
     display: flex;
     align-items: center;
+    z-index: 1;
 }
 
 .cont2__bg {
@@ -118,6 +119,7 @@ header{
     opacity: 18%;
     position: absolute;
     transform: rotate(-5deg);
+    z-index: -1;
 }
 
 .cont2_item1 .img-shoes {
@@ -171,6 +173,7 @@ header{
     height: 74px;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .cont2_item2 .details .colors .color1, .color2 {
@@ -196,6 +199,7 @@ header{
     font-size: 55px;
     font-weight: 300;
     border: solid 1px #000000;
+    cursor: pointer;
 }
 
 .flex_center-center {
